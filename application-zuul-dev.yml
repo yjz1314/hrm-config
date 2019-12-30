@@ -16,5 +16,5 @@ zuul:
     course:
       path: /course/**
       serviceId: COURSE-SERVICE
-
+ 
 
