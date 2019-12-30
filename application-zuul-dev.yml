@@ -1,11 +1,5 @@
 server:
   port: 9527
-
-
-spring:
-  application:
-    name: ZUUL-GATEWAY
-
 zuul:
   prefix: /services
   ignored-services: "*"
@@ -16,5 +10,8 @@ zuul:
     course:
       path: /course/**
       serviceId: COURSE-SERVICE
+    file:
+      path: /file/**
+      serviceId: FILE-SERVICE
 
 
